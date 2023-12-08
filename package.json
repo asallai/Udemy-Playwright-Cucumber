@@ -8,5 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "chai": "^4.3.10",
+    "cucumber-html-reporter": "^7.1.1",
+    "playwright": "^1.40.1",
+    "prettier": "^3.1.0"
+  }
 }
