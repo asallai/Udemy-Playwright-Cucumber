@@ -20,5 +20,5 @@ defineStep('I wait for 3 seconds', async function() {
 })
 
 defineStep(/^I fill the login form with "([^"]*)" and "([^"]*)"$/, async function (username, password) {
-      await loginPage.submitLoginWithParameters(username, password)
+      await loginPage.submitLoginFormWithParameters(username, password)
 })

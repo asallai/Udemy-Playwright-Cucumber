@@ -12,7 +12,9 @@ class LoginPage {
 
     async submitLoginFormWithParameters(username, password) {
         await page.fill('#user-name', username)
+        await page.waitForTimeout(3000)
         await page.fill('#password', password)
+        await page.waitForTimeout(3000)
         await page.click('#login-button')
     }
 
